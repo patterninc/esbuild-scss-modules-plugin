@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: esbuild-scss-modules-plugin
+  description: 'esbuild-scss-modules-plugin — registered via Backstage backfill'
+  annotations:
+    repo: patterninc/esbuild-scss-modules-plugin
+  labels:
+    CostCenter: SHELF
+    Environment: prod
+    Name: esbuild-scss-modules-plugin
+    Owner: dev-integrations
+    Department: CONNECT
+    CreatedBy: Backstage
+spec:
+  type: service
